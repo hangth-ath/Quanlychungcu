@@ -389,11 +389,3 @@ DEVICE_IP=http://192.168.1.100:8080 npm start
 | **Nhận diện sai hoặc không nhận ra** | Đăng ký lại khuôn mặt dưới nhiều điều kiện ánh sáng, đủ 30 mẫu |
 
 ---
-## 📝 Tài liệu & Báo cáo liên quan
-
-| File | Nội dung |
-|---|---|
-| `bao_cao_du_an.tex` | Báo cáo tổng kết toàn bộ dự án |
-| `bao_cao_tuan1.tex` → `bao_cao_tuan5.tex` | Báo cáo tiến độ từng tuần |
-
-Biên dịch sang PDF bằng [TeXstudio](https://www.texstudio.org/) hoặc [Overleaf](https://www.overleaf.com/).
