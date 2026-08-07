@@ -4,7 +4,7 @@ echo =======================================================
 echo     KHOI CHAY HE THONG QUAN LY CHUNG CU SMARTELEVATOR
 echo =======================================================
 
-echo [0/3] Don dep tien trinh va cong cu (Port 3000, 5173)...
+echo [0/3] Don dep tien trinh va cong cu (Port 3000, 4173)...
 taskkill /f /im node.exe /im SmartElevatorCamera.exe >nul 2>&1
 timeout /t 1 /nobreak >nul
 
@@ -20,7 +20,7 @@ start "SmartElevator Camera C++" powershell -ExecutionPolicy Bypass -NoExit -Com
 echo.
 echo =======================================================
 echo   DA KHOI CHAY THANH CONG TOAN BO HE THONG!
-echo   - Web Admin UI: http://localhost:5173
+echo   - Web Admin UI: http://localhost:4173
 echo   - Backend API : http://localhost:3000
 echo   - Camera C++  : HTTP Server Port 8080
 echo =======================================================
